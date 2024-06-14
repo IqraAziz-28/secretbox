@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hey, Birthday Queen</h1>
+        <div class="login-box" id="loginBox">
+            <input type="password" id="password" placeholder="Enter the secret code">
+            <button onclick="checkPassword()">Open Box</button>
+            <p id="error-message" class="error-message"></p>
+        </div>
+        <div class="secret-box" id="secretBox">
+            <h2>Your Secret Documents</h2>
+            <ul>
+                <li><a href="https://docs.google.com/document/d/1VEIv5oc4Oel0FRgO2WSziPrm_QRQi34F/edit?usp=sharing&ouid=100876581080639247537&rtpof=true&sd=true" target="_blank">Document 1</a></li>
+                <li><a href="https://drive.google.com/file/d/1rmgM-d6xh5cv2ZXALYtdOmIAmaHpFzmr/view?usp=drive_link" target="_blank">Image 1</a></li>
+                <li><a href="https://drive.google.com/file/d/1H_i365UWoovU5_lyMJGsqsicCQaurbHU/view?usp=sharing" target="_blank">Video 1</a></li>
+                <!-- Add more documents, images, and videos here -->
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
